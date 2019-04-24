@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="menu_add_blog">创建新博客</string>
+    <string name="menu_my_account">我的账户</string>
+    <string name="menu_sign_out">注销</string>
+    <string name="menu_about_this_app">关于这个App</string>
+    <string name="blog_card_view_edit_button">编辑</string>
+    <string name="blog_edit_page_title_hint">输入博客标题</string>
+    <string name="blog_edit_page_click_to_select_image_text">点击以选择图片</string>
+    <string name="blog_edit_page_body_hint">输入博客正文</string>
+    <string name="blog_edit_page_public_blog_text">这是一条公开博客</string>
+    <string name="blog_edit_page_save_button_text">保存</string>
+    <string name="main_activity_label">有趣的博客</string>
+    <string name="about_this_app_activity_label">关于这个App</string>
+    <string name="account_setting_activity_label">我的账户</string>
+    <string name="edit_blog_activity_label">编辑博客</string>
+    <string name="about_this_app_introduction">开发中</string>
+    <string name="about_this_app_go_back">返回</string>
+    <string name="blog_edit_page_blog_not_complete_toast_message">博客的内容还不完整，现在不能保存</string>
+    <string name="menu_home_page">所有博客</string>
+</resources>

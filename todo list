@@ -1,0 +1,32 @@
+Requirements:
+(X) Modified Icon/Name
+(X) More than one Activity
+(X) Two Languages (UI Only)
+(X) Toast Message
+(X) Button Events
+(X) Menu Item
+(X) RecyclerView
+( ) Image: Select Images from device
+( ) Image: Upload to Firebase
+( ) Firebase Database: add\remove\modify data
+( ) Firebase Auth: Sign-in/Sign-Up/Sign-Out
+
+TODO:
+- change app icon
+- write "about this app page"
+- create toast message for important activities (e.g. after creating a blog)
+- create recycler view for main activity (including edit button), and corresponding view holder and view adapter
+- allow user to edit his/her blog in the recycler view
+- create image browser for selecting image from device
+- connect to firebase (realtime database, storage, and authentication)
+- config firebase
+- upload image to firebase storage
+- upload/download blogs from firebase
+- sign-in page with firebase auth
+- sign-up with email/password and validate password (length >= 6)
+- sign-out function
+- create blog edit page to allow user type in a title, upload an image, and write blog body
+- in blog edit page, default publicBlog to be false
+- create save button in blog edit page and disable the button if some field is empty
+- in account setting page, allow user to see their email and reset password
+- show the total number of blogs of this user in account setting page

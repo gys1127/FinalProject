@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    // Labels
+    <string name="main_activity_label">Fun With Blog</string>
+    <string name="about_this_app_activity_label">About This App</string>
+    <string name="account_setting_activity_label">My Account</string>
+    <string name="edit_blog_activity_label">Edit A Blog</string>
+
+    // Menu item
+    <string name="menu_add_blog">Add New Blog</string>
+    <string name="menu_my_account">My Account</string>
+    <string name="menu_sign_out">Sign Out</string>
+    <string name="menu_about_this_app">About This App</string>
+    <string name="menu_home_page">View All Blogs</string>
+
+    // Blog card view
+    <string name="blog_card_view_edit_button">Edit</string>
+    
+    // Blog edit page
+    <string name="blog_edit_page_title_hint">Enter blog title here</string>
+    <string name="blog_edit_page_click_to_select_image_text">Click above image to select a blog image</string>
+    <string name="blog_edit_page_body_hint">Enter blog body here</string>
+    <string name="blog_edit_page_public_blog_text">Make this blog available to every user</string>
+    <string name="blog_edit_page_save_button_text">Save</string>
+    <string name="blog_edit_page_blog_not_complete_toast_message">Some field is missing. Cannot save blog. </string>
+
+    // About this app page
+    <string name="about_this_app_introduction">This is a simple blog app which allows users to register new accounts, post private and public blogs, and read his/her blogs and all other users\' public blogs.</string>
+    <string name="about_this_app_go_back">Go Back</string>
+</resources>
