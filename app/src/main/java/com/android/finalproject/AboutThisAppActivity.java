@@ -9,6 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.firebase.ui.auth.AuthUI;
+import com.google.firebase.auth.FirebaseAuth;
+
 public class AboutThisAppActivity extends AppCompatActivity {
 
     @Override
@@ -42,16 +45,13 @@ public class AboutThisAppActivity extends AppCompatActivity {
                 return true;
             case R.id.menu_add_blog:
                 intent = new Intent(this, EditBlogActivity.class);
-                // TODO: fill in creator's email
-                intent.putExtra(Constants.BLOG_FOR_EDIT_PAGE, new Blog(""));
-                startActivity(intent);
-                return true;
-            case R.id.menu_my_account:
-                intent = new Intent(this, AccountSettingActivity.class);
+                intent.putExtra(Constants.BLOG_FOR_EDIT_PAGE, new Blog(FirebaseAuth.getInstance().getCurrentUser().getEmail()));
                 startActivity(intent);
                 return true;
             case R.id.menu_sign_out:
-                // TODO: sign out
+                AuthUI.getInstance().signOut(this);
+                intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

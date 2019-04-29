@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class BlogViewHolder extends RecyclerView.ViewHolder {
 
     private CardView cardView;
@@ -17,23 +20,11 @@ public class BlogViewHolder extends RecyclerView.ViewHolder {
     private ImageView blogImageView;
     private TextView blogBodyTextView;
 
-    private String creatorEmail;
-
     public BlogViewHolder(View itemView, final Context context) {
         super(itemView);
         cardView = itemView.findViewById(R.id.blog_card_view);
         blogTitleTextView = itemView.findViewById(R.id.blog_card_view_title_text);
         blogEditButton = itemView.findViewById(R.id.blog_card_view_edit_button);
-        blogEditButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // TODO: goto edit blog page with current info
-                Intent intent = new Intent(context, EditBlogActivity.class);
-                context.startActivity(intent);
-            }
-        });
-        // TODO: if the current user is not creator of the blog, disable and/or hide edit button
-
         blogImageView = itemView.findViewById(R.id.blog_card_view_image);
         blogBodyTextView = itemView.findViewById(R.id.blog_card_view_body_text);
     }
@@ -76,13 +67,5 @@ public class BlogViewHolder extends RecyclerView.ViewHolder {
 
     public void setBlogBodyTextView(TextView blogBodyTextView) {
         this.blogBodyTextView = blogBodyTextView;
-    }
-
-    public String getCreatorEmail() {
-        return creatorEmail;
-    }
-
-    public void setCreatorEmail(String creatorEmail) {
-        this.creatorEmail = creatorEmail;
     }
 }

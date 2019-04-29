@@ -19,4 +19,5 @@
     <string name="about_this_app_go_back">返回</string>
     <string name="blog_edit_page_blog_not_complete_toast_message">博客的内容还不完整，现在不能保存</string>
     <string name="menu_home_page">所有博客</string>
+    <string name="blog_edit_page_fail_to_load_image">上传图片失败，请稍后再试</string>
 </resources>

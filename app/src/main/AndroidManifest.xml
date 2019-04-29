@@ -13,9 +13,6 @@
             android:name=".AboutThisAppActivity"
             android:label="@string/about_this_app_activity_label"></activity>
         <activity
-            android:name=".AccountSettingActivity"
-            android:label="@string/account_setting_activity_label" />
-        <activity
             android:name=".EditBlogActivity"
             android:label="@string/edit_blog_activity_label" />
         <activity

@@ -24,6 +24,7 @@
     <string name="blog_edit_page_public_blog_text">Make this blog available to every user</string>
     <string name="blog_edit_page_save_button_text">Save</string>
     <string name="blog_edit_page_blog_not_complete_toast_message">Some field is missing. Cannot save blog. </string>
+    <string name="blog_edit_page_fail_to_load_image">Upload image failed. Please try again. </string>
 
     // About this app page
     <string name="about_this_app_introduction">This is a simple blog app which allows users to register new accounts, post private and public blogs, and read his/her blogs and all other users\' public blogs.</string>

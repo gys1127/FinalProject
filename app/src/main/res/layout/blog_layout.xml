@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/activeButtonBackground"
                 android:text="@string/blog_card_view_edit_button"
-                android:textSize="25sp" />
+                android:textSize="16sp" />
         </LinearLayout>
 
         <ImageView
@@ -49,6 +49,21 @@
             android:textColor="@android:color/black"
             android:textSize="16sp"
             tools:text="Blog body. " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:text="END"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/darker_gray" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/darker_gray" />
 
     </LinearLayout>
 
