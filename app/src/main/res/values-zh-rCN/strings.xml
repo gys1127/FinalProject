@@ -15,7 +15,7 @@
     <string name="about_this_app_activity_label">关于这个App</string>
     <string name="account_setting_activity_label">我的账户</string>
     <string name="edit_blog_activity_label">编辑博客</string>
-    <string name="about_this_app_introduction">开发中</string>
+    <string name="about_this_app_introduction">这个博客浏览App允许用户注册新账户，创建公开和私有博客，并且可以阅读自己的所有博客以及所有其他用户的公开博客</string>
     <string name="about_this_app_go_back">返回</string>
     <string name="blog_edit_page_blog_not_complete_toast_message">博客的内容还不完整，现在不能保存</string>
     <string name="menu_home_page">所有博客</string>
